@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "gme"
+version = "0.1.0"
+description = "Greedy Maximum Entropy sampler"
+authors = ["Maxime Delmas <maxime.delmas@idiap.ch>"]
+license = "GPL"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+numpy = "^1.26.0"
+scipy = "^1.11.3"
+pandas = "^2.1.1"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.2"
+pre-commit = "^3.4.0"
+flake8 = "^6.1.0"
+black = "^23.9.1"
+coverage = "^7.3.2"
+bandit = "^1.7.5"
+reuse = "^2.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
