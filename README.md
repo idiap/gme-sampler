@@ -78,7 +78,7 @@ The expected output is:
 
 At each step the document which maximised the diversity is sampled and the corresponding increasing entropy values for each variables (here *structure_wikidata* and *organism_wikidata*) are indicated.
 
-On larger datasets, monitoring the entropy values can help estimate a sufficient sample size. See a complete example in our related [article](url/pre-print).
+On larger datasets, monitoring the entropy values can help estimate a sufficient sample size. See a complete example in our related [article](http://arxiv.org/abs/2311.06364).
 
 ## Additional information
 
