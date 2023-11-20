@@ -29,7 +29,14 @@ pip install git+ssh://git@github.com/idiap/gme-sampler
 
 ## Usage
 
-The provided example considers the motivating scenario of sampling literature references for the LOTUS database. Only a subset of the original database is used in this example.
+The provided example considers the motivating scenario of sampling literature references for the LOTUS database. 
+
+The original snapshot of the LOTUS database (v.10 - Jan 6, 2023) used in this work is available at 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7534071.svg)](https://doi.org/10.5281/zenodo.7534071).
+
+The LOTUS dataset used is licensed under CC BY 4.0. See the related [article](https://elifesciences.org/articles/70780) and the [website](https://lotus.naturalproducts.net/) for more details.
+
+Only a subset of the original database is used in this example.
 In this example, each document $d$ is identified by the *reference_doi* columns, e.g: [10.1002/(SICI)1099-1573(199902)13:13.0.CO;2-F](https://onlinelibrary.wiley.com/doi/10.1002/(SICI)1099-1573(199902)13:1%3C75::AID-PTR387%3E3.0.CO;2-F). Each document then reports a list of relations between organisms and chemicals, respectively identified by a Wikidata Organisms entity and a Wikidata structure entity. In this example, we sample to top-5 documents that maximise the diversity among organisms and chemicals from this subset. The dataset looks like this:
 
 
